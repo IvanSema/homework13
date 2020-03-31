@@ -1,0 +1,283 @@
+body {
+  background: #ffffff;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+  border: none;
+  color: #000000;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  font-family: Arial;
+  font-size: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2 {
+  font-size: 20px;
+  padding: 0 0 10px 0;
+  color: #545454;
+}
+
+.team-block-wrapper .team-block {
+  width: 1150px;
+  margin: 30px auto;
+}
+
+.team-block-wrapper .team-block .headline-uppertext {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #898f8f;
+  text-align: center;
+}
+
+.team-block-wrapper .team-block h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #ffcc00;
+  font-size: 60px;
+  margin: 20px 0 55px 0;
+  text-align: center;
+}
+
+.team-block-wrapper .team-block .headline-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.team-block-wrapper .team-block .headline-wrapper .top-line {
+  width: 210px;
+  background-color: #ffcc00;
+  border: none;
+  height: 1px;
+}
+
+.team-block-wrapper .team-block .content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1150px;
+  position: relative;
+}
+
+.team-block-wrapper .team-block .content-wrapper .vert-line {
+  height: 560px;
+  width: 1px;
+  background-color: #ffcc00;
+  margin: 38px auto 0 auto;
+  position: absolute;
+  left: 575px;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell {
+  padding: 123px 80px;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .img-content-block {
+  position: relative;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .img-content-block .left-top-border {
+  width: 100px;
+  border-left: 1px solid #ffcc00;
+  border-top: 1px solid #ffcc00;
+  height: 100px;
+  position: absolute;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .img-content-block .left-bottom-border {
+  width: 100px;
+  border-left: 1px solid #ffcc00;
+  border-bottom: 1px solid #ffcc00;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .img-content-block .right-top-border {
+  right: 0;
+  width: 100px;
+  border-right: 1px solid #ffcc00;
+  border-top: 1px solid #ffcc00;
+  height: 100px;
+  position: absolute;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .img-content-block .right-bottom-border {
+  width: 100px;
+  bottom: 0;
+  right: 0;
+  border-right: 1px solid #ffcc00;
+  border-bottom: 1px solid #ffcc00;
+  height: 100px;
+  position: absolute;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .img-content-block .img-content {
+  margin: 14px;
+  border: 1px solid #ffcc00;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .name {
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #666666;
+  text-align: center;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .line {
+  display: block;
+  height: 1px;
+  background-color: #ffcc00;
+  width: 100px;
+  margin: 35px auto;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .position {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  color: #666666;
+  font-family: 'Raleway', sans-serif;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .icons-block {
+  margin: 34px auto;
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .icons-block .fb-wrap:hover {
+  border: 2px solid #3b5998;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .icons-block .fb-wrap:hover .fb {
+  color: #3b5998;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .icons-block .twitter-wrap:hover {
+  border: 2px solid #1DA1F2;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .icons-block .twitter-wrap:hover .twitter {
+  color: #1DA1F2;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .icons-block .google-wrap:hover {
+  border: 2px solid #db4a39;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .icons-block .google-wrap:hover .google {
+  color: #db4a39;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .icons-block .link-in-wrap:hover {
+  border: 2px solid #2867B2;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .icons-block .link-in-wrap:hover .link-in {
+  color: #2867B2;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .icons-block .icon-wrapper {
+  height: 30px;
+  width: 30px;
+  border: 2px solid #cdcdcd;
+  border-radius: 30px;
+  margin: 0 5px;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .icons-block .icon-wrapper [class^="fab"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  height: 100%;
+  color: #cdcdcd;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .bio-text {
+  font-size: 14px;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  width: 420px;
+  line-height: 24px;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .lines-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  margin: 24px auto;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell .lines-wrapper hr {
+  background-color: #ffcc00;
+  border: none;
+  height: 4px;
+  width: 10px;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell button {
+  border: 1px solid #ffcc00;
+  padding: 6px;
+  margin: 0 150px;
+  width: 120px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  font-size: 14px;
+  color: #666666;
+}
+
+.team-block-wrapper .team-block .content-wrapper .cell button:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=style.css.map */
